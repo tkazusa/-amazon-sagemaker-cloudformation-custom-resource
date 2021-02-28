@@ -6,6 +6,6 @@ from cdk.cdk_stack import SageMakerNotebookStack
 
 
 app = core.App()
-CdkStack(app, "SageMakerNotebook")
+SageMakerNotebookStack(app, "SageMakerNotebook")
 
 app.synth()
